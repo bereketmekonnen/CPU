@@ -1,0 +1,124 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=cpu_final
+
+[Library]
+cpu_final=.\cpu_final\cpu_final.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+fileopenfolder=C:\Users\Jorge Gomez\Downloads\Joint Final\Joint Final\Joint Final\cpu_final\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+cpu_final=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=cpu_tb|testbench_for_cpu|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/NBitNandGate.vhd=-1
+/DataSelOR.vhd=-1
+/DataSelAND.vhd=-1
+/4bitMux.vhd=-1
+/signExtended.vhd=-1
+/XnorGate.vhd=-1
+/xorgate.vhd=-1
+/orgate.vhd=-1
+/programCounter.vhd=-1
+/NotGate.vhd=-1
+/in2out1MUX.vhd=-1
+/MUXor.vhd=-1
+/andMUX.vhd=-1
+/ArraysPackage.vhd=-1
+/andgate.vhd=-1
+/DataMemory.vhd=-1
+/Decoder.vhd=-1
+/halfadder.vhd=-1
+/Fs_ALU.vhd=-1
+/Instruction Memory.vhd=-1
+/MUX16B3SL.vhd=-1
+/RegisterFile.vhd=-1
+/FullAdder.vhd=-1
+/NBitAdder.vhd=-1
+/NBitSubtractor.vhd=-1
+/NBitMultiplier.vhd=-1
+/ALU_Final.vhd=-1
+/CPU.vhd=-1
+TestBench/alu_final_TB.vhd=-1
+TestBench/cpu_TB.vhd=-1
+TestBench/alu_final_TB_runtest.do=-1
+TestBench/cpu_TB_runtest.do=-1
+
+[Files.Data]
+.\src\NBitNandGate.vhd=VHDL Source Code
+.\src\DataSelOR.vhd=VHDL Source Code
+.\src\DataSelAND.vhd=VHDL Source Code
+.\src\4bitMux.vhd=VHDL Source Code
+.\src\signExtended.vhd=VHDL Source Code
+.\src\XnorGate.vhd=VHDL Source Code
+.\src\xorgate.vhd=VHDL Source Code
+.\src\orgate.vhd=VHDL Source Code
+.\src\programCounter.vhd=VHDL Source Code
+.\src\NotGate.vhd=VHDL Source Code
+.\src\in2out1MUX.vhd=VHDL Source Code
+.\src\MUXor.vhd=VHDL Source Code
+.\src\andMUX.vhd=VHDL Source Code
+.\src\ArraysPackage.vhd=VHDL Source Code
+.\src\andgate.vhd=VHDL Source Code
+.\src\DataMemory.vhd=VHDL Source Code
+.\src\Decoder.vhd=VHDL Source Code
+.\src\halfadder.vhd=VHDL Source Code
+.\src\Fs_ALU.vhd=VHDL Source Code
+.\src\Instruction Memory.vhd=VHDL Source Code
+.\src\MUX16B3SL.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\FullAdder.vhd=VHDL Source Code
+.\src\NBitAdder.vhd=VHDL Source Code
+.\src\NBitSubtractor.vhd=VHDL Source Code
+.\src\NBitMultiplier.vhd=VHDL Source Code
+.\src\ALU_Final.vhd=VHDL Source Code
+.\src\CPU.vhd=VHDL Source Code
+.\src\TestBench\alu_final_TB.vhd=VHDL Test Bench
+.\src\TestBench\cpu_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_final_TB_runtest.do=Macro
+.\src\TestBench\cpu_TB_runtest.do=Macro
+

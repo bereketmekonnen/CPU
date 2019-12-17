@@ -1,0 +1,31 @@
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd" VHDL cpu_final 1 0 0 -02
+"C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd" VHDL cpu_final 1 0 0 -02
+. . 0 0 0

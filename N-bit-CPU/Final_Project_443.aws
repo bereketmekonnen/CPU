@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+cpu_final=.\cpu_final\cpu_final.adf
+[Browser]
+sort=name
+mode=asc
+[Order]
+order=1
+macro=
+[Expand]
+cpu_final=1

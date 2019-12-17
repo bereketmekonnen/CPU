@@ -1,0 +1,1018 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/in2out1MUX.vhd $dsn/src/NotGate.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/programCounter.vhd $dsn/src/orgate.vhd $dsn/src/MUXor.vhd $dsn/src/Decoder.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd $dsn/src/MUX16B3SL.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Top-level unit(s) detected:
+# Entity => NBitNand
+# Configuration => TESTBENCH_FOR_alu_final
+# Configuration => TESTBENCH_FOR_cpu
+# Entity => DataSelOR
+# Entity => DataSelAND
+# Entity => bit4Mux
+# Warning: ELAB1_0026: Decoder.vhd : (61, 0): There is no default binding for component "andDecoder". (No entity named "andDecoder" was found).
+# Warning: ELAB1_0026: Decoder.vhd : (70, 0): There is no default binding for component "orDecoder". (No entity named "orDecoder" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  1.0 [s]
+asim -O5 +access +r +m+testbench_for_cpu testbench_for_cpu
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:39 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instr0,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 10 us
+run 10 us
+# KERNEL: stopped at time: 20 us
+run 10 us
+# KERNEL: stopped at time: 30 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:40 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:40 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instr0,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 10 us
+run 10 us
+# KERNEL: stopped at time: 20 us
+run 10 us
+# KERNEL: stopped at time: 30 us
+run 10 us
+# KERNEL: stopped at time: 40 us
+run 10 us
+# KERNEL: stopped at time: 50 us
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 60 us,  Iteration: 3,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: stopped at time: 60 us
+run 10 us
+# KERNEL: stopped at time: 70 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:40 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:41 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instr0,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 10 us
+run 10 us
+# KERNEL: stopped at time: 20 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:41 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and0 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and1 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and2 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and3 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and4 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and5 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and6 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/and7 : andDecoder not bound.
+# ELBREAD: Warning: ELBREAD_0037 Component /cpu_tb/UUT/decoder0/oring : orDecoder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7594 kB (elbread=1309 elab2=6102 kernel=181 sdf=0)
+#  9:41 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+acom -O3 -e 100 -work cpu_final -2002  $dsn/src/Decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# Warning: ELAB1_0026: Decoder.vhd : (61, 0): There is no default binding for component "andDecoder". (No entity named "andDecoder" was found).
+# Warning: ELAB1_0026: Decoder.vhd : (70, 0): There is no default binding for component "orDecoder". (No entity named "orDecoder" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  47.0 [ms]
+acom -reorder -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/in2out1MUX.vhd $dsn/src/NotGate.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/programCounter.vhd $dsn/src/orgate.vhd $dsn/src/MUXor.vhd $dsn/src/Decoder.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd $dsn/src/MUX16B3SL.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/andDecoder.vhd $dsn/src/orDecoder.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andDecoder.vhd
+# Compile Entity "andDecoder"
+# Compile Architecture "circit" of Entity "andDecoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orDecoder.vhd
+# Compile Entity "orDecoder"
+# Compile Architecture "circit" of Entity "orDecoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => NBitNand
+# Configuration => TESTBENCH_FOR_alu_final
+# Configuration => TESTBENCH_FOR_cpu
+# Entity => DataSelOR
+# Entity => DataSelAND
+# Entity => bit4Mux
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Architecture "Structural" of Entity "Decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work cpu_final -2002  $dsn/src/Decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7597 kB (elbread=1309 elab2=6105 kernel=182 sdf=0)
+#  9:43 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instr0,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 3,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# RUNTIME: Fatal Error: RUNTIME_0047 RegisterFile.vhd (25): Index 10 out of range (7 downto 0).
+# KERNEL: Time: 10 ns,  Iteration: 3,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__25.
+# KERNEL: Stopped at time 10 ns + 3.
+# VSIM: Error: Fatal error occurred during simulation.
+run 10 us
+acom -reorder -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/programCounter.vhd $dsn/src/NotGate.vhd $dsn/src/in2out1MUX.vhd $dsn/src/MUXor.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/Decoder.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/MUX16B3SL.vhd $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_alu_final
+# Configuration => TESTBENCH_FOR_cpu
+# Entity => NBitNand
+# Entity => DataSelOR
+# Entity => DataSelAND
+# Entity => bit4Mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7593 kB (elbread=1309 elab2=6101 kernel=181 sdf=0)
+#  9:44 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instr0,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__28.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__29.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__32.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__33.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/decoder0,  Process: line__36.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /cpu_tb/UUT/Regfile0,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 10 us
+run 10 us
+# KERNEL: stopped at time: 20 us
+run 10 us
+# KERNEL: stopped at time: 30 us
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 32020 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 40 us
+run 10 us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 40020 ns,  Iteration: 0,  Instance: /cpu_tb/UUT/DatMem0,  Process: line__21.
+# KERNEL: stopped at time: 50 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7593 kB (elbread=1309 elab2=6101 kernel=181 sdf=0)
+#  9:45 AM, Tuesday, December 10, 2019
+#  Simulation has been initialized
+acom -reorder -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/programCounter.vhd $dsn/src/NotGate.vhd $dsn/src/in2out1MUX.vhd $dsn/src/MUXor.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/Decoder.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/MUX16B3SL.vhd $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_alu_final
+# Configuration => TESTBENCH_FOR_cpu
+# Entity => NBitNand
+# Entity => DataSelOR
+# Entity => DataSelAND
+# Entity => bit4Mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -reorder -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/programCounter.vhd $dsn/src/NotGate.vhd $dsn/src/in2out1MUX.vhd $dsn/src/MUXor.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/Decoder.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/MUX16B3SL.vhd $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_alu_final
+# Configuration => TESTBENCH_FOR_cpu
+# Entity => NBitNand
+# Entity => DataSelOR
+# Entity => DataSelAND
+# Entity => bit4Mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work cpu_final -2002  $dsn/src/NBitNandGate.vhd $dsn/src/DataSelOR.vhd $dsn/src/DataSelAND.vhd $dsn/src/4bitMux.vhd $dsn/src/signExtended.vhd $dsn/src/XnorGate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/programCounter.vhd $dsn/src/NotGate.vhd $dsn/src/in2out1MUX.vhd $dsn/src/MUXor.vhd $dsn/src/andMUX.vhd $dsn/src/ArraysPackage.vhd $dsn/src/andgate.vhd $dsn/src/DataMemory.vhd $dsn/src/Decoder.vhd $dsn/src/halfadder.vhd $dsn/src/Fs_ALU.vhd "$dsn/src/Instruction Memory.vhd" $dsn/src/MUX16B3SL.vhd $dsn/src/RegisterFile.vhd $dsn/src/FullAdder.vhd $dsn/src/NBitAdder.vhd $dsn/src/NBitSubtractor.vhd $dsn/src/NBitMultiplier.vhd $dsn/src/ALU_Final.vhd $dsn/src/CPU.vhd $dsn/src/TestBench/alu_final_TB.vhd $dsn/src/TestBench/cpu_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitNandGate.vhd
+# Compile Entity "NBitNand"
+# Compile Architecture "Structural" of Entity "NBitNand"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelOR.vhd
+# Compile Entity "DataSelOR"
+# Compile Architecture "Structural" of Entity "DataSelOR"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataSelAND.vhd
+# Compile Entity "DataSelAND"
+# Compile Architecture "Structural" of Entity "DataSelAND"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\4bitMux.vhd
+# Compile Entity "bit4Mux"
+# Compile Architecture "circit" of Entity "bit4Mux"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\signExtended.vhd
+# Compile Entity "signExtended"
+# Compile Architecture "Structural" of Entity "signExtended"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\XnorGate.vhd
+# Compile Entity "XnorGate"
+# Compile Architecture "Structural" of Entity "XnorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\xorgate.vhd
+# Compile Entity "XorGate"
+# Compile Architecture "Structural" of Entity "XorGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\orgate.vhd
+# Compile Entity "OrGate"
+# Compile Architecture "Structural" of Entity "OrGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\programCounter.vhd
+# Compile Entity "programCounter"
+# Compile Architecture "Structural" of Entity "programCounter"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NotGate.vhd
+# Compile Entity "NotGate"
+# Compile Architecture "Structural" of Entity "NotGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\in2out1MUX.vhd
+# Compile Entity "in2out1MUX"
+# Compile Architecture "circit" of Entity "in2out1MUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUXor.vhd
+# Compile Entity "MUXor"
+# Compile Architecture "circit" of Entity "MUXor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andMUX.vhd
+# Compile Entity "andMUX"
+# Compile Architecture "circit" of Entity "andMUX"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ArraysPackage.vhd
+# Compile Package "ArrayPKG"
+# Compile Package "Declaration"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\andgate.vhd
+# Compile Entity "AndGate"
+# Compile Architecture "Structural" of Entity "AndGate"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\DataMemory.vhd
+# Compile Entity "DatMem"
+# Compile Architecture "Structural" of Entity "DatMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Decoder.vhd
+# Compile Entity "Decoder"
+# Compile Architecture "Structural" of Entity "Decoder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "Structural" of Entity "HalfAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Fs_ALU.vhd
+# Compile Entity "Fs_ALU"
+# Compile Architecture "circit" of Entity "Fs_ALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\Instruction Memory.vhd
+# Compile Entity "InstrMem"
+# Compile Architecture "Structural" of Entity "InstrMem"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\MUX16B3SL.vhd
+# Compile Entity "MUXALU"
+# Compile Architecture "circit" of Entity "MUXALU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\RegisterFile.vhd
+# Compile Entity "RegFile"
+# Compile Architecture "Structural" of Entity "RegFile"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\FullAdder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Structural" of Entity "FullAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitAdder.vhd
+# Compile Entity "NBitAdder"
+# Compile Architecture "Structural" of Entity "NBitAdder"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitSubtractor.vhd
+# Compile Entity "NBitSubstractor"
+# Compile Architecture "Structural" of Entity "NBitSubstractor"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\NBitMultiplier.vhd
+# Compile Entity "NBitMultiplier"
+# Compile Architecture "Structural" of Entity "NBitMultiplier"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\ALU_Final.vhd
+# Compile Entity "ALU_Final"
+# Compile Architecture "circit" of Entity "ALU_Final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\CPU.vhd
+# Compile Entity "CPU"
+# Compile Architecture "Structural" of Entity "CPU"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\alu_final_TB.vhd
+# Compile Entity "alu_final_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_final_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_final"
+# File: C:\Users\Jorge Gomez\Desktop\Joint Final\Joint Final\Joint Final\cpu_final\src\TestBench\cpu_TB.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

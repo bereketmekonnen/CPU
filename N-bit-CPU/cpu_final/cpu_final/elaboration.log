@@ -1,0 +1,59 @@
+Active-HDL 10.3.3558.6081  2019-12-10 9:45:00 AM
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_cpu
+
+
+-------------------------------------------------------------------------------------------------------
+Entity          | Architecture    | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+cpu_tb          | TB_ARCHITECTURE | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+CPU             | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+programCounter  | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+InstrMem        | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+Decoder         | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+RegFile         | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+signExtended    | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+in2out1MUX      | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+ALU_Final       | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+DatMem          | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+NBitAdder       | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+NBitMultiplier  | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+NBitSubstractor | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+MUXALU          | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+Fs_ALU          | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+FullAdder       | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+XnorGate        | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+XorGate         | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+AndGate         | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+HalfAdder       | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+OrGate          | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+NotGate         | Structural      | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+andMUX          | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+MUXor           | circit          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Configuration                | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+testbench_for_cpu                 | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                      | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                          | std       |      |                           | <unavailable>
+TEXTIO                            | std       |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                    | ieee      |      | 10.3.3558.6081  (Windows) |  -2008
+ArrayPKG                          | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+NUMERIC_STD                       | ieee      |      | 10.3.3558.6081  (Windows) |  -2008
+Declaration                       | cpu_final |      | 10.3.3558.6081  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                           | Comment
+-------------------------------------------------------------------------------------------------------
+cpu_final                         | None
+ieee                              | Standard IEEE packages library
+std                               | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
